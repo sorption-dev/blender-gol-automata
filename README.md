@@ -5,7 +5,7 @@ Every generation of the automaton becomes a layer of the tower; the Z axis is th
 axis of time, so each next generation sits below the previous one. That axis can
 also be any curve in the scene — then the tower bends along the path you drew.
 
-Landing page and full documentation — **https://sorption.dev/p/golautomata**
+Landing page and full documentation — **https://sorption.dev/blender-gol-automata**
 (the site lives in a separate repository).
 
 Licence — [GPL-3.0-or-later](LICENSE). Russian readme — [README_RU.md](README_RU.md).

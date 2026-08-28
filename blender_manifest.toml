@@ -7,7 +7,7 @@ version = "1.0.0"
 type = "add-on"
 
 maintainer = "Sorption"
-website = "https://sorption.dev/p/golautomata"
+website = "https://sorption.dev/blender-gol-automata"
 
 # Extensions arrived in Blender 4.2. The legacy single-file install of
 # gol_automata.py still works from 3.0 onwards; bl_info takes care of that.
