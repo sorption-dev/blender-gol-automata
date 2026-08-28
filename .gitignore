@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+
+dist/
+*.zip
+
+*.blend1
+*.blend2
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

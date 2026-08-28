@@ -1,0 +1,31 @@
+schema_version = "1.0.0"
+
+id = "gol_automata"
+name = "GOL Automata"
+tagline = "Game of Life generations stacked along Z into a tower"
+version = "1.0.0"
+type = "add-on"
+
+maintainer = "Sorption"
+website = "https://sorption.dev/p/golautomata"
+
+# Extensions arrived in Blender 4.2. The legacy single-file install of
+# gol_automata.py still works from 3.0 onwards; bl_info takes care of that.
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2026 Sorption"]
+
+# Values come from Blender's built-in vocabulary:
+# scripts/modules/_bpy_internal/extensions/tags.py
+tags = ["Add Mesh", "Geometry Nodes", "Modeling"]
+
+[build]
+# A custom list fully replaces the defaults, so the stock patterns are
+# repeated here; otherwise __pycache__ and dot-files land in the archive
+paths_exclude_pattern = [
+  "__pycache__/",
+  ".*",
+  "/*.zip",
+  "*.blend[1-9]",
+]
